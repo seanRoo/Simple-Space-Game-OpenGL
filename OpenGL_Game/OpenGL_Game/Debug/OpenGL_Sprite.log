@@ -1,0 +1,39 @@
+﻿Build started 23/03/2018 09:26:20.
+     1>Project "C:\Users\Sean Rooney\Documents\Visual Studio 2010\Projects\OpenGL_Game\OpenGL_Sprite\OpenGL_Sprite.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\OpenGL_Game.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Sean Rooney\Documents\Visual Studio 2010\Projects\OpenGL_Sprite\freeglut_bin" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\OpenGL_Game.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Sean Rooney\Documents\Visual Studio 2010\Projects\OpenGL_Sprite\freeglut_bin" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\OpenGL_Game.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt OpenGL_Game.cpp
+         OpenGL_Game.cpp
+     1>c:\users\sean rooney\documents\visual studio 2010\projects\opengl_game\opengl_sprite\opengl_game.cpp(34): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\sean rooney\documents\visual studio 2010\projects\opengl_game\opengl_sprite\opengl_game.cpp(36): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\sean rooney\documents\visual studio 2010\projects\opengl_game\opengl_sprite\opengl_game.cpp(38): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\sean rooney\documents\visual studio 2010\projects\opengl_game\opengl_sprite\opengl_game.cpp(40): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\sean rooney\documents\visual studio 2010\projects\opengl_game\opengl_sprite\opengl_game.cpp(45): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\sean rooney\documents\visual studio 2010\projects\opengl_game\opengl_sprite\opengl_game.cpp(47): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\sean rooney\documents\visual studio 2010\projects\opengl_game\opengl_sprite\opengl_game.cpp(49): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\sean rooney\documents\visual studio 2010\projects\opengl_game\opengl_sprite\opengl_game.cpp(51): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\OpenGL_Game.exe.embed.manifest.res" Debug\OpenGL_Game_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sean Rooney\Documents\Visual Studio 2010\Projects\OpenGL_Game\Debug\OpenGL_Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Sean Rooney\Documents\Visual Studio 2010\Projects\OpenGL_Sprite\freeglut_bin" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenGL_Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Sean Rooney\Documents\Visual Studio 2010\Projects\OpenGL_Game\Debug\OpenGL_Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sean Rooney\Documents\Visual Studio 2010\Projects\OpenGL_Game\Debug\OpenGL_Game.lib" /MACHINE:X86 Debug\OpenGL_Game.exe.embed.manifest.res
+         Debug\OpenGL_Game.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\OpenGL_Game.exe.embed.manifest" /manifest Debug\OpenGL_Game.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\OpenGL_Game.exe.embed.manifest.res" Debug\OpenGL_Game_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sean Rooney\Documents\Visual Studio 2010\Projects\OpenGL_Game\Debug\OpenGL_Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Sean Rooney\Documents\Visual Studio 2010\Projects\OpenGL_Sprite\freeglut_bin" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenGL_Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Sean Rooney\Documents\Visual Studio 2010\Projects\OpenGL_Game\Debug\OpenGL_Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sean Rooney\Documents\Visual Studio 2010\Projects\OpenGL_Game\Debug\OpenGL_Game.lib" /MACHINE:X86 Debug\OpenGL_Game.exe.embed.manifest.res
+         Debug\OpenGL_Game.obj
+         Debug\stdafx.obj
+         OpenGL_Sprite.vcxproj -> C:\Users\Sean Rooney\Documents\Visual Studio 2010\Projects\OpenGL_Game\Debug\OpenGL_Game.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\OpenGL_Game.unsuccessfulbuild".
+         Touching "Debug\OpenGL_Game.lastbuildstate".
+     1>Done Building Project "C:\Users\Sean Rooney\Documents\Visual Studio 2010\Projects\OpenGL_Game\OpenGL_Sprite\OpenGL_Sprite.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.85
